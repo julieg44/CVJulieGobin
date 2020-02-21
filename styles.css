@@ -267,3 +267,170 @@ section #identite_petit{
 }
 
 
+/*responsive tablettes*/
+
+@media all and (min-width : 488px) and (max-width:768px){
+
+    .ligne{
+        display: block;
+    }
+
+    .titre{
+        margin-bottom: 5%;
+    }
+
+    .dates{
+        width: 100%;
+    }
+
+    .contenu{
+        width: 100%;
+        padding-left: 4%;
+        margin-top: 1%;
+    }
+
+    .ligne_collegue{
+        display: flex;
+    }
+
+    .icon {
+        
+        padding-top: 10px;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-top: 15px;
+    }
+
+  
+}
+
+
+
+
+/*responsive mobiles*/
+
+@media all and (max-width : 480px){
+
+    #wrap{
+        display: block;
+    }
+
+    p{
+        font-size: 1em;
+    }
+
+    section{
+        order: 1;
+        width: 100%;
+        padding-left: 0%;
+    }
+
+
+    section header{
+        
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin: 0%;
+        display: flex;
+        background-color: #0F4C81;
+    }
+
+    section header h1, h2{
+        color: #ffffff;
+    }
+
+    #julie{
+        color: #B5C7D3;
+    }
+
+    #filet{
+        background-color: #B5C7D3;
+    }
+
+    section #identite_petit{
+        display: block;
+        width: 30%;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 0%;
+    }
+
+    section #identite{
+        width: 60%;
+    }
+
+    section #identite_petit img{
+        width: 100%;
+    }
+
+    section header h1 {
+        font-family: 'Raleway',Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        font-size: 2.3em;
+        font-weight: 100;
+        margin-bottom: 0;
+        margin-top: 6%;
+    }
+
+    article{
+        padding-left: 3%;
+        margin-bottom: 25%;
+    }
+
+    .titre {
+        margin-bottom: 5%;
+        margin-top: 15%;
+    }
+   
+
+    .ligne{
+        display: block;
+        margin-bottom: 10%;
+    }
+
+    .ligne_collegue{
+        display: block;
+        margin-bottom: 10%;
+    }
+
+    .contenu{
+        margin-top: 1%;
+        margin-left: 5%;
+        width: 100%;
+    }
+
+    .contenu h2{
+        color: #5c6266;
+    }
+    
+    .dates{
+        width:100% ;
+    }
+
+    .dates p{
+        color: #0F4C81;
+    }
+
+    
+    
+    .collegue{
+        margin-bottom: 10%;
+    }
+
+
+    aside{
+        width: 100%;
+        order: 2;
+    }
+
+    aside #photo{
+        display: none;
+    }
+
+    #loisirs{
+        position: relative;
+    }
+
+
+
+}
