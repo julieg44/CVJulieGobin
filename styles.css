@@ -279,7 +279,19 @@ section #identite_petit{
 
 /*responsive tablettes*/
 
-@media all and (min-width : 488px) and (max-width:768px){
+@media all and (min-width : 570px) and (max-width:768px){
+
+    aside h1{
+        height: auto;
+    }
+
+    article{
+        margin-bottom: 25%;
+    }
+
+    section article :last-child{
+        margin bottom: 0%;
+    }
 
     .ligne{
         display: block;
@@ -287,6 +299,7 @@ section #identite_petit{
 
     .titre{
         margin-bottom: 5%;
+        margin-top: 15%;
     }
 
     .dates{
@@ -319,7 +332,7 @@ section #identite_petit{
 
 /*responsive mobiles*/
 
-@media all and (max-width : 480px){
+@media all and (max-width : 570px){
 
     #wrap{
         display: block;
