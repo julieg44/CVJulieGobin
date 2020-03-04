@@ -74,6 +74,11 @@ aside h1{
     margin-top: 40px;
 }
 
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
 #loisirs{
     width: 100%;
     text-align: center;
@@ -258,6 +263,11 @@ article{
     font-family: 'Raleway',Arial, Helvetica, sans-serif;
     margin-top: 0;
     margin-bottom: 0.2em;
+}
+
+.collegue a{
+    text-decoration: none;
+    color: #37474F;
 }
 
 
