@@ -289,9 +289,10 @@ section #identite_petit{
         margin-bottom: 25%;
     }
 
-    section article :last-child{
-        margin bottom: 0%;
+    article.bloc_section:last-child{
+        margin-bottom: 0%;
     }
+
 
     .ligne{
         display: block;
